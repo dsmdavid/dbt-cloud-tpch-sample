@@ -32,9 +32,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 # Configuring seeds 
 # Full documentation: https://docs.getdbt.com/docs/building-a-dbt-project/seeds
-seeds:
+# seeds:
 # This declares that column names in the seed file will not be quoted when the table is created.
-  +quote_columns: false
+  # +quote_columns: false
 
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models

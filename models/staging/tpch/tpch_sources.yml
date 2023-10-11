@@ -79,8 +79,7 @@ sources:
       - name: lineitem
         description: main lineitem table
         freshness: 
-          # This section applies freshness tests on these column. Full docs: https://docs.getdbt.com/docs/dbt-cloud/using-dbt-cloud/cloud-snapshotting-source-freshness
-          warn_after: {count: 30, period: year}
+          warn_after: {count: 10800, period: day}
           # error_after: {count: 12, period: hour}
         loaded_at_field: l_shipdate::timestamp
         columns:

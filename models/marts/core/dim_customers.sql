@@ -34,7 +34,7 @@ final as (
     left join nation as n 
         on c.nation_key = n.nation_key
     left join region as r 
-        on n.region_key as r.region_key
+        on n.region_key = r.region_key
 )
 select *
 from final  

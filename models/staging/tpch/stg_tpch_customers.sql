@@ -26,7 +26,7 @@ renamed as (
     select
     
         c_custkey as customer_key,
-        c_names as name,
+        c_name as name,
         c_address as address, 
         c_nationkey as nation_key,
         c_phone as phone_number,

@@ -9,7 +9,7 @@ with merged as (
 )
 
 select
-    * 
+    * , 1 as dummy
 from
     merged
     -- have to manually map strings in the pivot operation
